@@ -1,28 +1,34 @@
 # Team Task Manager
 
-A full-stack Team Task Manager application built using:
+A full-stack MERN application for managing projects and tasks.
 
-- React
-- Node.js
-- Express.js
-- MongoDB
+## Live Demo
+Frontend:
+https://team-task-manager-peach-sigma.vercel.app
+
+Backend:
+https://team-task-manager-production-017f.up.railway.app
+
+---
 
 ## Features
 
-- User Signup/Login
-- JWT Authentication
-- Role-Based Access Control
-- Project Management
-- Task Creation & Tracking
-- Task Status Updates
+- User Signup
+- User Login
 - Dashboard
+- Project Page
+- Task Page
+- JWT Authentication
+- MongoDB Database
+
+---
 
 ## Tech Stack
 
 Frontend:
 - React
+- Vite
 - Axios
-- React Router
 
 Backend:
 - Node.js
@@ -31,28 +37,12 @@ Backend:
 - Mongoose
 - JWT
 
-## Run Locally
+---
 
-### Backend
+## Deployment
 
-cd backend
+Frontend deployed on Vercel
 
-npm install
+Backend deployed on Railway
 
-npm run dev
-
-### Frontend
-
-cd frontend
-
-npm install
-
-npm run dev
-
-## Live Links
-
-Frontend:
-(Add Railway frontend URL)
-
-Backend:
-(Add Railway backend URL)
+Database hosted on MongoDB Atlas
